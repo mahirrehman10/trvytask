@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        GIT_REPO =   'https://github.com/mahirrehman10/trvytask.git'
+        GIT_REPO = 'https://github.com/mahirrehman10/trvytask.git'
         GIT_BRANCH = 'main'
         DOCKER_REGISTRY = 'localhost:5000'
         IMAGE_NAME = 'myimage'
@@ -22,4 +22,5 @@ pipeline {
                 }
             }
         }
-
+    }
+}
